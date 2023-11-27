@@ -28,17 +28,19 @@ nav{
     align-items: center;
     height: 64px;
 }
-nav .img{
+nav .icon{
     height: 35px;
 }
-.logo  h4{
-    display: none;
-}
+    .logo  h4{
+        display: none;
+    }
 .logo p{
     display: none;
     
 }
-.first-page-left img{
+/* first-page */
+
+#first-page img{
     width: 100%;
 }
 .first-page-right{
@@ -76,15 +78,19 @@ button > h3{
     display: flex;
     flex-direction: column;
 }
-.container-second-page-right img{
+.container-second-page-right .mobile{
     margin: 16px;
 }
+
 .content-container-second-page-right{
     margin: 16px 32px 32px 32px;
 }
 .content-container-second-page-right > a{
     font-family: 'Open Sans', sans-serif;
     color: #5C9AE4;
+}
+.desktop{
+    display: none;
 }
 /* third-page */
 .header-third-page > h2{
@@ -140,4 +146,60 @@ footer p{
 }
 footer a{
     display: none;
+}
+@media only screen and (min-width: 1000px){
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 16px 24px;
+        
+    }
+    nav .icon{
+        display: none;
+    }
+    .logo  h4{
+        display: flex;
+        font-size: 32px;
+        flex-grow: 1;
+    }
+    .logo .logo-icon{
+        height: 60px;
+    }
+    .logo p{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 24px;
+    }
+    /* first-page */
+    #first-page{
+        display: flex;
+    }
+    .first-page-right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #D8D9DA;
+    }
+    #first-page img{
+        width:100%;
+        display: inline-block;
+        margin: 32px 24px;
+    }
+    .first-page-left{
+        width: 50%;
+        background-color: #D8D8D8;
+    }
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 80px;
+        color: #4A4A4A;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    font-size: 28px;
+}
+
 }
