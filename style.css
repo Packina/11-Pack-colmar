@@ -16,6 +16,7 @@ h2{
 h3{
     font-family: 'Open Sans', sans-serif;
     color: #4A4A4A;
+    font-size: 20px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -94,20 +95,49 @@ button > h3{
 .container-third-page > img{
     display: none;
 }
-.container-third-page > p{
+.container-third-page  p{
     display: none;
 }
+
 .container-third-page > h3{
     background-color: #D8D8D8;
     display: flex;
     justify-content: flex-start;
 }
+.showbox-third-page{
+    background-color: #D8D8D8;
+    padding: 16px 16px 24px 16px;
+    margin: 16px 16px 4px 16px;
+}
+
 .container-third-page{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
 }
 /* forth-page */
 .header-forth-page > h2{
     display: flex;
     justify-content: center;
-    margin: 32px;
+    margin: 32px 0 16px 0;
+}
+.forth-page-left > video{
+    width: 100%;
+    margin: 0 0 24px 0;
+}
+.content-below-video{
+    display: none;
+}
+.showbow-forth-page{
+    display: none;
+}
+/* Footer */
+footer p{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+footer a{
+    display: none;
 }
