@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    color: #4A4A4A;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    font-size: 35px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+}
+nav .img{
+    height: 35px;
+}
+.logo  h4{
+    display: none;
+}
+.logo p{
+    display: none;
+    
+}
+.first-page-left img{
+    width: 100%;
+}
+.first-page-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #D8D9DA;
+}
+.title-first-page-right{
+    margin: 32px 16px;
+}
+.content-first-page-right{
+    margin: 0 16px 24px 16px;
+}
+.first-page-right button{
+    background-color: #7D7C7C;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 16px 32px 16px;
+    cursor: pointer;
+}
+button > h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+/* second-page */
+.second-page-left{
+    display: none;
+}
+.container-second-page-right{
+    display: flex;
+    flex-direction: column;
+}
+.container-second-page-right img{
+    margin: 16px;
+}
+.content-container-second-page-right{
+    margin: 16px 32px 32px 32px;
+}
+.content-container-second-page-right > a{
+    font-family: 'Open Sans', sans-serif;
+    color: #5C9AE4;
+}
+/* third-page */
+.header-third-page > h2{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+.container-third-page > img{
+    display: none;
+}
+.container-third-page > p{
+    display: none;
+}
+.container-third-page > h3{
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: flex-start;
+}
+.container-third-page{
+    
+}
+/* forth-page */
+.header-forth-page > h2{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
