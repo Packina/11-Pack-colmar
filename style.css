@@ -79,18 +79,22 @@ button > h3{
     flex-direction: column;
 }
 .container-second-page-right .mobile{
-    margin: 16px;
+    margin: 32px 16px 0 16px;
 }
 
-.content-container-second-page-right{
-    margin: 16px 32px 32px 32px;
-}
-.content-container-second-page-right > a{
-    font-family: 'Open Sans', sans-serif;
-    color: #5C9AE4;
-}
 .desktop{
     display: none;
+}
+.container-second-page-right h3{
+    margin: 0 32px;
+}
+.container-second-page-right p{
+        margin: 0 32px;
+}
+.container-second-page-right a{
+    margin: 0 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5C9AE4;
 }
 /* third-page */
 .header-third-page > h2{
